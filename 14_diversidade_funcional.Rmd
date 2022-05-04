@@ -17,7 +17,7 @@ library(picante)
 library(vegan)
 library(SYNCSA)
 library(GGally)
-library(FD)
+library(FD) > DUPLICADO
 library(betapart)
 library(nlme)
 library(ape)
@@ -423,7 +423,7 @@ cwm_ex <- functcomp(trait_baselga, as.matrix(comm_baselga))
 cwm_ex
 ```
 
-A matriz resultante `cwm_es` é formada pelas localidades (linhas) e os atributos "médios" (colunas) nestas localidades. Essa matriz pode ser utilizada em diversas análises como dbRDA, RDA ou RDA parcial (veja Capítulo \@ref(cap9)). Na sequência, vamos utilizar testes de hipóteses para entender como podemos calcular as diversidades funcional alfa e beta com outros testes estatísticos apresentados neste livro.
+A matriz resultante `cwm_ex` é formada pelas localidades (linhas) e os atributos "médios" (colunas) nestas localidades. Essa matriz pode ser utilizada em diversas análises como dbRDA, RDA ou RDA parcial (veja Capítulo \@ref(cap9)). Na sequência, vamos utilizar testes de hipóteses para entender como podemos calcular as diversidades funcional alfa e beta com outros testes estatísticos apresentados neste livro.
 
 **Exemplo 5**
 
